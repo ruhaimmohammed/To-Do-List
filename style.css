@@ -1,0 +1,36 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+#title{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 40px;
+}
+form{
+    padding-left: 200px;
+}
+.form-label{
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+#description{
+    resize: vertical;
+}
+#table{
+    display: flex;
+    margin-top: 100px;
+    justify-content: center;
+    width: 100%;
+    border-radius: 50px;
+}
+.table{
+    border:1px solid rgb(92, 89, 89) ;
+    width: 75%;
+}
+#thead{
+    background-color: rgb(49, 44, 44);
+    color: white;
+}
