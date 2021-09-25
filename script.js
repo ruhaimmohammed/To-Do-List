@@ -17,5 +17,6 @@ add.addEventListener("click", () =>{
         localStorage.setItem('itemsJson', JSON.stringify(itemJsonArray))
     }
 
+
     
 });
