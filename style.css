@@ -7,9 +7,8 @@
 #title{
     text-align: center;
     text-decoration: underline;
-    font-size: 40px;
 }
-form{
+#form{
     padding-left: 200px;
 }
 .form-label{
@@ -17,6 +16,7 @@ form{
     margin-bottom: 10px;
 }
 #description{
+    width: 100%;
     resize: vertical;
 }
 #table{

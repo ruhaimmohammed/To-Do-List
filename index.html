@@ -10,23 +10,23 @@
 </head>
 <body class="pl-5020" >
     <h2 class="my-5" id="title">To DO List</h2>
-    <form class="w-75 ">
+    <div class="w-75 " id="form">
         <div class="mb-3" >
-          <label for="exampleInputEmail1" class="form-label">Item Name</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+          <label for="tit" class="form-label">Item Name</label>
+          <input type="text" id="tit" class="form-control" >
           <!-- <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div> -->
         </div>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Description</label> <br>
-          <textarea name="description" id="description" cols="128" rows="7"></textarea>
+          <label for="description" class="form-label">Description</label> <br>
+          <textarea name="description" id="description" rows="7"></textarea>
         </div>
         <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Dead Line</label>
-          <input type="datetime-local" class="form-control" id="exampleInputPassword1">
+          <label for="time" class="form-label">Dead Line</label>
+          <input type="datetime-local" class="form-control" id="time">
         </div>
         
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+        <button type="submit" id="add" class="btn btn-primary">Add to list</button>
+    </div>
     <div id="table">
       <table class="table table-bordered ">
         <thead id="thead">
@@ -53,5 +53,5 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js" integrity="sha384-W8fXfP3gkOKtndU4JGtKDvXbO53Wy8SZCQHczT5FMiiqmQfUpWbYdTil/SxwZgAN" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.min.js" integrity="sha384-skAcpIdS7UcVUC05LJ9Dxay8AXcDYfBJqt1CJ85S/CFujBsIzCIv+l9liuYLaMQ/" crossorigin="anonymous"></script>
-
+    <script src="script.js"></script>
 </html>
