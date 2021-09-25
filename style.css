@@ -34,3 +34,31 @@
     background-color: rgb(49, 44, 44);
     color: white;
 }
+@media only screen and (max-width:970px){
+    #form{
+        padding-left: 80px;
+    }
+
+}
+@media only screen and (max-width:550px){
+    .table{
+        width: 95%;
+    }
+    #form{
+        width: 90% !important;
+        padding-left: 40px;
+    }
+    .form-control{
+        width: 100%;
+    }
+    .form-container{
+        width: 100%;
+    }
+
+}
+@media only screen and (max-width:450px){
+    #table{
+       padding-left: 70px;
+    }
+
+}
